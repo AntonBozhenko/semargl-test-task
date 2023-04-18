@@ -1,0 +1,44 @@
+.submenunav {
+    height: 92vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    a {
+        font-size: 20px;
+        text-decoration: none;
+        color: aquamarine;
+        font-weight: 800;
+        transition: 0.1s;
+        border-bottom: 2px solid transparent;
+
+        &:hover {
+            border-bottom: 2px solid aquamarine;
+        }
+
+        &:active {
+            transform: scale(0.95);
+        }
+
+        @media (pointer: coarse) {
+            &:hover {
+                border-bottom: 2px solid transparent;
+            }
+        }
+    }
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}

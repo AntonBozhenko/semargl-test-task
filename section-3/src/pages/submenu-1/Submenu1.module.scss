@@ -1,0 +1,18 @@
+.submenu1 {
+    width: 85vw;
+
+    h1,
+    h2,
+    > p {
+        text-align: center;
+    }
+
+    ul {
+        width: 40vw;
+        margin: 0 auto;
+    }
+
+    .checked {
+        text-decoration: line-through;
+    }
+}

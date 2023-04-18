@@ -1,0 +1,22 @@
+.submenu2 {
+    width: 85vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div {
+        margin-bottom: 20px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .active {
+        background-color: chartreuse;
+    }
+
+    .error {
+        color: red;
+        margin-bottom: 0;
+    }
+}

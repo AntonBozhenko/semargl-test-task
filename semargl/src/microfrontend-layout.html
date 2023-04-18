@@ -1,0 +1,27 @@
+<single-spa-router>
+<style>
+  body, html {
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+    margin: 0;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+  }
+</style>
+
+  <nav>
+    <application name="@semargl/navbar"></application>
+  </nav>
+
+  <route path="/section-1">
+    <application name="@semargl/section-1"></application>
+  </route> 
+
+  <route path="/section-2">
+    <application name="@semargl/section-2"></application>
+  </route> 
+
+  <route path="/section-3">
+    <application name="@semargl/section-3"></application>
+  </route> 
+
+</single-spa-router>

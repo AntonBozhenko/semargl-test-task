@@ -1,0 +1,58 @@
+.section1 {
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+
+    div {
+        display: flex;
+        justify-content: center;
+        gap: 8vw;
+        margin-bottom: 15vh;
+
+        button {
+            height: 8vh;
+            width: 24vw;
+            border: 2px solid black;
+            border-radius: 12px;
+            font-size: 20px;
+            color: azure;
+            background-color: red;
+            transition: 0.3s;
+            position: relative;
+
+            &:hover {
+                box-shadow: -2px 4px 2px 0 gray;
+            }
+
+            &:active {
+                transform: scale(0.97);
+            }
+
+            @media (pointer: coarse) {
+                &:hover {
+                    box-shadow: none;
+                }
+            }
+        }
+
+        button:nth-child(2) {
+            background-color: green;
+        }
+
+        button:last-child {
+            background-color: blue;
+        }
+    }
+
+    textarea {
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    .active::after {
+        content: "✔️";
+        position: absolute;
+        top: -20px;
+        right: -20px;
+    }
+}

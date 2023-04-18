@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+
+    input {
+        width: 40vw;
+    }
+
+    input,
+    button {
+        height: 4vh;
+    }
+}
